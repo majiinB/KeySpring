@@ -1,0 +1,111 @@
+.homeSection {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin: 0;
+    padding: 0;
+}
+
+.homeContent {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    /* background-color: brown; */
+}
+
+.homeImage {
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 30%;
+    width: 30%;
+}
+
+.homeTextContainer {
+    padding: 0;
+    margin: 0;
+    /* background-color: blue; */
+    line-height: 0;
+}
+
+.homeTextContainer h1 {
+    margin-bottom: 10%;
+    font-weight: bold;
+    text-align: left;
+    font-size: clamp(32px, 6vw, 128px);
+    letter-spacing: -2.2px;
+}
+
+.homeTextContainer h2 {
+    margin-bottom: 3%;
+    font-style: normal;
+    text-align: left;
+    font-size: clamp(10px, 2vw, 40px);
+}
+
+.homeButtonContainer {
+    padding: 0;
+    margin-top: 4vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.homeButtonContainer a {
+    width: 10vw;
+    height: 7vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.homeButtonReg {
+    background-color: #45bb08;
+}
+
+.homeButtonReg p {
+    color: #FFF;
+    margin: 5px;
+    margin-top: 6px;
+    font-size: clamp(8px, 16px, 1vw);
+    align-items: center;
+    justify-content: center;
+}
+
+.homeButtonRegLogo {
+    width: 20%;
+    height: 57%;
+}
+
+.homeButtonGit {
+    background-color: #1e1e1e;
+}
+
+.homeButtonGit p {
+    color: #FFF;
+    margin: 5px;
+    margin-top: 6px;
+    font-size: clamp(8px, 16px, 1vw);
+    align-items: center;
+    justify-content: center;
+}
+
+.homeButtonGit Image {
+    width: 1%;
+}
+
+.homeButtonGitLogo {
+    width: 22%;
+    height: 56%;
+}
