@@ -18,11 +18,13 @@ export default function Modal({ isOpen, onClose, title, message}: ModalProps){
 
     return (
         <div className={styles.modalOverlay} onClick={onClose}>
-        <div className={`${styles.modalContent} ${krub.className}`} onClick={(e) => e.stopPropagation()}>
-            <h2>{title}</h2>
-            <p>{message}</p>
-            <button className={krub.className} onClick={onClose}>Close</button>
-        </div>
+          <div className={styles.modalBorder}>
+            <div className={`${styles.modalContent} ${krub.className}`} onClick={(e) => e.stopPropagation()}>
+              <h2>{title}</h2>
+              <p>{message}</p>
+              <button className={krub.className} onClick={onClose}>Close</button>
+            </div>
+          </div>
         </div>
       );
 }
