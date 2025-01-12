@@ -34,7 +34,7 @@ export const HomePage = () => {
                 </div>
                 <div className={styles.homeButtonContainer}>
                     <a className={styles.homeButtonGit}
-                    href='https://github.com/majiinB/KeySpring.git'
+                    href='https://github.com/majiinB/KeySpring-API.git'
                     target="_blank" 
                     rel="noopener noreferrer"
                     >
