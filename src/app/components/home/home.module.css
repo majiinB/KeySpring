@@ -68,6 +68,7 @@
     border-radius: 20px;
     outline: none;
     border: none;
+    text-decoration: none;
 }
 
 .homeButtonReg {
@@ -84,7 +85,7 @@
 }
 
 .homeButtonRegLogo {
-    width: 20%;
+    width: 19%;
     height: 57%;
 }
 
@@ -106,6 +107,18 @@
 }
 
 .homeButtonGitLogo {
-    width: 22%;
+    width: 21%;
     height: 56%;
+}
+
+.homeButtonGit:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homeButtonReg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

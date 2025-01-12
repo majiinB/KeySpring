@@ -1,12 +1,11 @@
 .navbar {
-    display: inline;
     width: 100%;
     transition: padding-top 0.3s ease-in-out;
     position: fixed;
     top: 0;
     z-index: 100;
     padding-top: 0;
-    background-color: transparent
+    /* background-color: black; */
 }
 
 .list {
@@ -18,7 +17,8 @@
     margin-right: 5%;
 }
 
-.list li {
+.listItem {
+    position: relative;
     margin-right: 5%;
     text-align: center;
     font-size: 18px;
@@ -26,4 +26,24 @@
     font-weight: lighter;
     line-height: 180.836%;
     letter-spacing: -0.24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    display: inline-block;
+}
+
+.listItem:hover {
+    color: #45bb08;
+}
+
+.indicator {
+    position: absolute;
+    width: 0%;
+    height: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
 }
